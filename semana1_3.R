@@ -1,6 +1,6 @@
 2-8
 penguins %>%
-  select(-species)
+  select(island, sex, year)
 
 penguins %>%
   rename(renomeada=island)
